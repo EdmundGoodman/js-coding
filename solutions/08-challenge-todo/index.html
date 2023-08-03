@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <h1>Worksheet Name</h1>
+    <form>
+        <div>
+            <label for="add-field">Item to do:</label>
+            <input class="add-field" type="text" placeholder="Item to do…" />
+            <button class="add-button" type="submit">Add to the todo list</button>
+        </div>
+        <div>
+            <label for="complete-field">Item number to mark as completed:</label>
+            <input class="complete-field" type="text" placeholder="Item number…" />
+            <button class="complete-button" type="submit">Remove from the todo list</button>
+        </div>
+        <div>
+            <label for="clear-button">Clear the todo list:</label>
+            <button class="clear-button" type="submit">Clear the todo list</button>
+        </div>
+    </form>
+    <ol class="todo-items"></ol>
+    <script src="script.js"></script>
+</body>
+
+</html>
